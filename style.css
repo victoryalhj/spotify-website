@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+/* nav */
+.nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.menu span {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.main {
+  height: 960px;
+  background-color: rgb(41, 65, 171);
+}
+
+.footer {
+  height: 530px;
+  background-color: black;
+}
