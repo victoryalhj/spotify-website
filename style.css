@@ -77,8 +77,93 @@ main {
 
 
 /* footer */
-.footer {
+footer {
   height: 530px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-container {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.box {
+  display: flex;
+  padding: 80px 0 50px 0;
+}
+.first-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.first-box img {
+  margin: 20px 0;
+}
+.first-box .title {
+  margin: 20px 0;
+  font-weight: 900;
+  color: #919496;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 10px 0;
+}
+li:hover {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+.second-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  margin: 20px 0;
+}
+.circle-box {
+  background-color: #222322;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-brands {
+  font-size: 24px;
+}
+.fa-brands:hover {
+  color: #2de26d;
+}
+
+.country {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+.fa-solid {
+  color: white;
+}
+
+.policy {
+  display: flex;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  width: 80%;
+}
+.created {
+  width: 20%;
+  text-align: right;
+  margin-top: 16px;
+  margin-right: 15px;
 }
